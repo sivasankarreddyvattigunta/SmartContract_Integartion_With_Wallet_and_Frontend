@@ -1,54 +1,55 @@
 # Hardhat Project
 
-This repository contains a starter project for integrating smart contract using solidity and Hardhat.
+This repository contains a starter project for integrating smart contracts using Solidity and Hardhat.
 
 ## Getting Started
 
-To get the code running on your computer, follow the steps below:
+1. **Clone the GitHub Repository:**
+    ```bash
+    git clone [<repository_url>](https://github.com/sivasankarreddyvattigunta/SmartContract_Integartion_With_Wallet_and_Frontend)
+    ```
 
-1. Clone the GitHub Repository
+2. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-git clone <repository_url>
-2. Install Dependencies
-Inside the project directory, open your terminal and run the following command to install the necessary dependencies:
+3. **Open Additional Terminals:**
+    Open two additional terminals within your Visual Studio Code or any other code editor.
 
-npm install
+4. **Start Local Hardhat Node:**
+    In the second terminal, run:
+    ```bash
+    npx hardhat node
+    ```
 
-3. Open Additional Terminals
-Open two additional terminals within your Visual Studio Code (or any other code editor).
+5. **Deploy Smart Contracts:**
+    In the third terminal, run:
+    ```bash
+    npx hardhat run --network localhost scripts/deploy.js
+    ```
 
-4. Start Local Hardhat Node
-In the second terminal, run the following command to start the local Hardhat node:
+6. **Launch the Frontend:**
+    Go back to the first terminal and run:
+    ```bash
+    npm run dev
+    ```
 
-npx hardhat node
-
-5. Deploy Smart Contracts
-In the third terminal, run the following command to deploy the smart contracts to the local network:
-
-npx hardhat run --network localhost scripts/deploy.js
-
-6. Launch the Frontend
-Go back to the first terminal and run the following command to launch the frontend application:
-
-
-npm run dev
-
-7. Access the Application
-The project should now be running on your localhost at: 
-
-http://localhost:3000/
+7. **Access the Application:**
+    The project should now be running on your localhost at [http://localhost:3000/](http://localhost:3000/).
 
 ## Author
 
-(VATTIGUNTA SIVA SANKAR REDDY)[https://github.com/sivasankarreddyvattigunta]
+[VATTIGUNTA SIVA SANKAR REDDY](https://github.com/sivasankarreddyvattigunta)
 
-Prerequisites
+## Prerequisites
 
 Make sure you have Node.js and npm installed on your computer before proceeding with the installation.
-Contributing
+
+## Contributing
 
 Feel free to explore the code and modify it to build your decentralized applications. If you find any issues or have improvements to suggest, please submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License.
