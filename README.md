@@ -1,12 +1,12 @@
 # Hardhat Project
 
-This repository contains a starter project for integrating smart contracts using Solidity and Hardhat.
+
 
 ## Getting Started
 
 1. **Clone the GitHub Repository:**
     ```bash
-    git clone [<repository_url>](https://github.com/sivasankarreddyvattigunta/SmartContract_Integartion_With_Wallet_and_Frontend)
+    git clone https://github.com/sivasankarreddyvattigunta/SmartContract_Integartion_With_Wallet_and_Frontend
     ```
 
 2. **Install Dependencies:**
