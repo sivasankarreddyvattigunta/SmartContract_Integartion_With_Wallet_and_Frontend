@@ -1,8 +1,8 @@
-#Hardhat Project
+# Hardhat Project
 
 This repository contains a starter project for integrating smart contract using solidity and Hardhat.
 
-##Getting Started
+## Getting Started
 
 To get the code running on your computer, follow the steps below:
 
@@ -38,9 +38,9 @@ The project should now be running on your localhost at:
 
 http://localhost:3000/
 
-##Author
+## Author
 
-VATTIGUNTA SIVA SANKAR REDDY(https://github.com/sivasankarreddyvattigunta)
+(VATTIGUNTA SIVA SANKAR REDDY)[https://github.com/sivasankarreddyvattigunta]
 
 Prerequisites
 
